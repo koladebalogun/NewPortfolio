@@ -1,0 +1,227 @@
+@import './breakpoints';
+
+.circular-text{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    color: black;
+    font-size: 10px;
+    -webkit-text-stroke: 1px grey;
+    transition: 0.5s ease-out;
+    animation: Rotation 8s linear infinite;
+    font-weight: 500;
+}
+
+.section1-container{
+    overflow: hidden;
+    color: white;
+    background: white;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 70px;
+    position: relative;
+    
+    // ::-webkit-scrollbar{
+    //     width: 0;
+    // }
+    
+    .nav-wrapper{
+        margin-top: 240px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        list-style: none;
+        position: relative;
+        overflow: hidden; 
+
+        @include media('<=phone'){
+            margin-left: 0;
+        }
+        .first-text{
+            position: absolute;
+            top: 5%;
+            left: 30%;
+            transform: translate(-50% -50%);
+            color: black;
+            font-size: 10px;
+            transition: 0.5s ease-out;
+            animation: Rotate 8s linear infinite;
+            font-weight: 500;
+        }        
+        .nav-item{
+            display: block;
+            user-select: none;
+            margin: 120px 0;
+            h1{
+                font-size: 100px;
+                text-decoration: none;
+                color: dimgray;
+                font-weight: 500;
+                letter-spacing: 10px;
+                @include media('<=tablet'){
+                    position: relative;
+                    font-size: 40px;
+                    left: -40px;
+                    font-weight: 800;
+                }
+
+                @include media('<=phone'){
+                    position: relative;
+                    font-size: 30px;
+                    left: 20px;
+                    font-weight: 800;
+                }
+
+                span{
+                    position: relative;
+                    display: block;
+                    z-index: 1;
+                }
+            }
+            
+        }
+        .inner-text{
+            color: black;
+            position: absolute;
+            bottom: 35px;
+            letter-spacing: 3px;
+            left: 50px;
+            @include media('<=tablet'){
+                left: 5px;
+            }
+            @include media('<=phone'){
+                left: 60px;
+            }
+            h2{
+                font-size: 24px;
+                font-weight: 600;
+                @include media('<=tablet'){
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .link{
+            position: relative;
+            top: 5px;
+            left: 50px;
+            padding: 15px;
+            background-color: black;
+            border: 1px solid black;
+            outline: none;
+            width: 10%;
+            @include media('<=tablet'){
+                width: 200px;
+                left: 5px;
+            }
+            @include media('<=phone'){
+                left: 60px;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: 600;
+            }
+            
+        }
+        .nav-item span:before{
+            width: 0;
+            color: wheat;
+            content: attr(data-text);
+            position: absolute;
+            overflow: hidden;
+            transition: all 0.9s cubic-bezier(0.84, 0, 0.08, 0.99);
+        }
+
+        .nav-item span:hover:before{
+            width: 100%;
+        }
+
+    }
+    
+    .project-preview-wrapper{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        .project-preview1{
+            position: fixed;
+            top: 12%;
+            left: 50%;
+            width: 0;
+            height: 400px;
+            overflow: hidden;
+            background: url(../image/PhotoS.png) no-repeat 50% 50%;
+            background-size: contain;
+            @include media('<=tablet'){
+                top: 20%;
+                left: -10%;
+                width: 200px;
+                height: 200px;
+            }
+
+            @include media('<=phone'){
+                top: 20%;
+                left: -30%;
+                width: 50px;
+                height: 200px;
+            }
+        }
+    }
+
+    .scroll{
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        @include media('<=phone'){
+            width: 100%;
+            left: 68%;
+        }
+        h3{
+            color: black;
+            span{
+                font-size: 18px;
+                font-weight: 800;
+                letter-spacing: 10px;
+                text-transform: uppercase;
+                animation: animate 1s ease-in-out infinite;
+            }
+        }
+    }
+
+    .progress-bar{
+        position: fixed;
+        top: 0;
+        left: 85%;
+        background: purple;
+        width: 1px;
+        z-index: 1;
+
+    }
+}
+
+@keyframes Rotation{
+    0%{
+        transform: rotate(360deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes animate{
+    0%,100%{
+        bottom: 0;
+    }
+
+    60%{
+        bottom: 60px;
+    }
+}
+span:nth-child(1){
+    animation-delay: 0.2s;
+}
