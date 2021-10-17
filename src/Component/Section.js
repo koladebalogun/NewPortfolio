@@ -292,7 +292,7 @@ const Section = () => {
                     <h5>React.Js, Sass and GSAP.</h5>
                 </div>
                 <div className="btn-link5">
-                    <button className='link5'><a href="https://githubssearch.netlify.app">VISIT SITE</a></button>
+                    <button className='link5'><a href="https://landing-ppage.netlify.app">VISIT SITE</a></button>
                 </div>
                 <div className="project-preview-wrapper5">
                     <div className="project-preview5"></div>
