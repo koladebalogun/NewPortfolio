@@ -133,8 +133,8 @@
             background: url(../image/header.png) no-repeat 50% 50%;
             background-size: contain;
             @include media('<=tablet'){
-                top: 27.5%;
-                left: 20%;
+                top: 20%;
+                left: -10%;
                 width: 200px;
                 height: 200px;
             }

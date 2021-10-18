@@ -80,6 +80,7 @@
             left: 50px;
             @include media('<=tablet'){
                 left: 5px;
+
             }
             @include media('<=phone'){
                 left: 60px;
@@ -87,8 +88,10 @@
             h2{
                 font-size: 24px;
                 font-weight: 600;
+                line-height: 3px;
                 @include media('<=tablet'){
                     font-size: 20px;
+                    line-height: 3px;
                 }
             }
         }
@@ -134,8 +137,8 @@
             background: url(../image/car.png) no-repeat 50% 50%;
             background-size: contain;
             @include media('<=tablet'){
-                top: 27.5%;
-                left: 20%;
+                top: 20%;
+                left: -10%;
                 width: 200px;
                 height: 200px;
             }
@@ -153,7 +156,7 @@
         right: -50%;
         transform: translate(-50% -50%);
         @include media('<=tablet'){
-            left: 75%;
+            left: 25.7%;
             bottom: -25%;
             width: 100%;
         }

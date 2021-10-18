@@ -10,6 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 const Section = () => {
+
     useEffect(()=>{
         new CircleType(
         document.getElementById('rotate')).radius(80);
@@ -116,6 +117,8 @@ const Section = () => {
         
                 })
             });
+
+            
             
         });
 

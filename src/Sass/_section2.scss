@@ -137,8 +137,8 @@
             background: url(../image/base.png) no-repeat 50% 50%;
             background-size: contain;
             @include media('<=tablet'){
-                top: 27.5%;
-                left: 20%;
+                top: 20%;
+                left: -10%;
                 width: 200px;
                 height: 200px;
             }
@@ -157,7 +157,7 @@
         left: 65%;
         transform: translate(-50% -50%);
         @include media('<=tablet'){
-            left: 70%;
+            left: 25.7%;
             bottom: -25%;
             width: 100%;
         }
