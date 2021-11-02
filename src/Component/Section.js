@@ -166,7 +166,7 @@ const Section = () => {
                     <h5>React.Js, Sass and GSAP3.</h5>
                 </div>
                 <div className="btn-link">
-                    <button className='link'><a href="https://pphotosnap.netlify.app">VISIT SITE</a></button>
+                    <button className='link'><a href="https://photossnap.netlify.app/">VISIT SITE</a></button>
                 </div>
             </div>
             <div className="project-preview-wrapper">
@@ -199,7 +199,7 @@ const Section = () => {
                     <h5>React.Js, Sass and GSAP3.</h5>
                 </div>
                 <div className="btn-link2">
-                    <button className='link2'><a href="https://base-apparrels.netlify.app/">VISIT SITE</a></button>
+                    <button className='link2'><a href="https://baseappparels.netlify.app/">VISIT SITE</a></button>
                 </div>
                 <div className="project-preview-wrapper2">
                     <div className="project-preview2"></div>
@@ -231,7 +231,7 @@ const Section = () => {
                     <h5>React.Js, Sass GSAP3, and <br/>React-Three-Fiber.</h5>
                 </div>
                 <div className="btn-link3">
-                    <button className='link3'><a href="http://carrss.netlify.app">VISIT SITE</a></button>
+                    <button className='link3'><a href="https://carr-store.netlify.app/">VISIT SITE</a></button>
                 </div>
                 <div className="project-preview-wrapper3">
                     <div className="project-preview3"></div>
@@ -263,7 +263,7 @@ const Section = () => {
                     <h5>React.Js, Sass and Axios.</h5>
                 </div>
                 <div className="btn-link4">
-                    <button className='link4'><a href="https://githubssearch.netlify.app">VISIT SITE</a></button>
+                    <button className='link4'><a href="https://devffinder.netlify.app/">VISIT SITE</a></button>
                 </div>
                 <div className="project-preview-wrapper4">
                     <div className="project-preview4"></div>
@@ -295,7 +295,7 @@ const Section = () => {
                     <h5>React.Js, Sass and GSAP.</h5>
                 </div>
                 <div className="btn-link5">
-                    <button className='link5'><a href="https://landing-ppage.netlify.app">VISIT SITE</a></button>
+                    <button className='link5'><a href="https://lanndingpage.netlify.app/">VISIT SITE</a></button>
                 </div>
                 <div className="project-preview-wrapper5">
                     <div className="project-preview5"></div>
