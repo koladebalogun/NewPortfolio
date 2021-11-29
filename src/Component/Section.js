@@ -190,16 +190,16 @@ const Section = () => {
                 <ul className="nav2-list">
                     <li className="item2">
                     <h1 className="nav-link nav-link-2">
-                        <span data-text="BASEAPPAREL">BASEAPPAREL</span>
+                        <span data-text="MEMORIES">MEMORIES</span>
                     </h1>
                     </li>
                 </ul>
                 <div className="inner-text2">
-                    <h2>Built With</h2>
-                    <h5>React.Js, Sass and GSAP3.</h5>
+                    <h2>A social-media web app</h2>
+                    <h5>Built with <br />React.JS, Express.JS, Material-UI <br /> Node.JS and MongoDB</h5>
                 </div>
                 <div className="btn-link2">
-                    <button className='link2'><a href="https://baseappparels.netlify.app/">VISIT SITE</a></button>
+                    <button className='link2'><a href="https://memmoirs.netlify.app">VISIT SITE</a></button>
                 </div>
                 <div className="project-preview-wrapper2">
                     <div className="project-preview2"></div>
@@ -222,16 +222,16 @@ const Section = () => {
                 <ul className="nav3-list">
                     <li className="item3">
                         <h1 className="nav-link nav-link-3">
-                            <span data-text="CARSHOP">CARSHOP</span>
+                            <span data-text="GOOGLR">GOOGLR</span>
                         </h1>
                     </li>
                 </ul>
                 <div className="inner-text3">
-                    <h2>Built With</h2>
-                    <h5>React.Js, Sass GSAP3, and <br/>React-Three-Fiber.</h5>
+                    <h2>A Google clone</h2>
+                    <h5>Built with <br />React.JS, Tailwind and Rapid-Api.</h5>
                 </div>
                 <div className="btn-link3">
-                    <button className='link3'><a href="https://carr-store.netlify.app/">VISIT SITE</a></button>
+                    <button className='link3'><a href="https://googlr.netlify.app">VISIT SITE</a></button>
                 </div>
                 <div className="project-preview-wrapper3">
                     <div className="project-preview3"></div>
@@ -254,16 +254,16 @@ const Section = () => {
                 <ul className="nav4-list">
                     <li className="item4">
                         <h1 className="nav-link nav-link-4">
-                            <span data-text="DEVFINDER">DEVFINDER</span>
+                            <span data-text="XPENSE">XPENSE</span>
                         </h1>
                     </li>
                 </ul>
                 <div className="inner-text4">
-                    <h2>Built With</h2>
-                    <h5>React.Js, Sass and Axios.</h5>
+                    <h2>An expense tracker with <br/>voice-to-speech feature</h2>
+                    <h5>Built with <br />React.JS and Material-UI</h5>
                 </div>
                 <div className="btn-link4">
-                    <button className='link4'><a href="https://devffinder.netlify.app/">VISIT SITE</a></button>
+                    <button className='link4'><a href="https://xpensetrackerr.netlify.app">VISIT SITE</a></button>
                 </div>
                 <div className="project-preview-wrapper4">
                     <div className="project-preview4"></div>

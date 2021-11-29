@@ -3,7 +3,7 @@
 .section2-container{
     overflow: hidden;
     color: white;
-    background: darksalmon;
+    background: grey;
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -80,6 +80,7 @@
             bottom: 35px;
             letter-spacing: 3px;
             left: 50px;
+            line-height: 20px;
             @include media('<=tablet'){
                 left: 5px;
             }
@@ -98,12 +99,12 @@
 
         .link2{
             position: relative;
-            top: 5px;
+            top: 10px;
             left: 50px;
             padding: 15px;
             background-color: white;
             border: 1px solid white;
-            width: 15%;
+            width: 250px;
             outline: none;
             @include media('<=tablet'){
                 width: 200px;
@@ -134,7 +135,7 @@
             width: 0px;
             height: 400px;
             overflow: hidden;
-            background: url(../image/base.png) no-repeat 50% 50%;
+            background: url(../image/memories.png) no-repeat 50% 50%;
             background-size: contain;
             @include media('<=tablet'){
                 top: 20%;
