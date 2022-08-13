@@ -38,6 +38,7 @@ const Banner = () => {
                 <h1 className='banner-text'>Hello, I'm KOLADE.</h1>
                 <div className="txt">
                     <p>I'm a frontend developer who loves crafting creative solutions to problems of various complexities.</p>
+                    <p>I also see my self as the bridge between the gap of implementation and design</p>
                 </div>
             </div>
         </div>

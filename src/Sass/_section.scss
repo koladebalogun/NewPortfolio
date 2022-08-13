@@ -94,6 +94,10 @@
             bottom: 35px;
             letter-spacing: 3px;
             left: 50px;
+
+            p{
+                font-size: 12px;
+            }
             @include media('<=tablet'){
                 left: 5px;
             }

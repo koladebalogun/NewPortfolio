@@ -77,6 +77,10 @@
             letter-spacing: 3px;
             left: 50px;
             line-height: 20px;
+
+            p{
+                font-size: 12px;
+            }
             @include media('<=tablet'){
                 left: 5px;
             }

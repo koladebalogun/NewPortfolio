@@ -77,6 +77,9 @@
             letter-spacing: 3px;
             left: 50px;
             line-height: 20px;
+            p{
+                font-size: 12px;
+            }
             @include media('<=tablet'){
                 left: 5px;
             }
@@ -125,12 +128,12 @@
         justify-content: center;
         .project-preview5{
             position: fixed;
-            top: 25%;
-            left: 35%;
+            top: 13%;
+            left: 40%;
             width: 600px;
             height: 400px;
             overflow: hidden;
-            background: url(../image/header.png) no-repeat 50% 50%;
+            background: url(../image/crypto.png) no-repeat 50% 50%;
             background-size: contain;
             @include media('<=tablet'){
                 top: 20%;
